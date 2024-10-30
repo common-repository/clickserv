@@ -1,0 +1,43 @@
+.clickserv-btn{
+    width: 140px;
+    height: 49px;
+    margin: 14px 14px;
+    border: none;
+    /* border: solid 1px rgb(101, 153, 221); */
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;    
+    background-color: rgb(134, 213, 236);
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.3);
+    transition: background-color 0.7s ease;
+}
+.clickserv-submit{
+    padding: 7px 21px;
+    border: none;
+    background-color: rgb(134, 213, 236);
+    border-radius: 3px;
+    cursor: pointer;
+}
+#clickserv-userid{
+    border: none;
+    border-bottom: solid 1px rgb(134, 213, 236);
+    background-color: transparent;
+    width: 280px;
+    box-shadow: none;
+}
+#clickserv-userid:focus{
+    border: none;
+    border-bottom: solid 1px rgb(101, 153, 221);
+    background-color: transparent;
+    box-shadow: none;
+}
+.clickserv-btn:hover, .clickserv-submit:hover{
+    background-color: rgb(101, 153, 221);
+}
+.clickserv-row form{
+    float: left;
+}
+.clickserv-row::after{
+    clear: both;
+}
